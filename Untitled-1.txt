@@ -1,0 +1,58 @@
+notes:
+data type:
+number charecter listofNumber listOfChar NULL undefined object (listOfCharAndNum)
+
+variable : seat/chair:
+
+const: 
+let/var: 
+
+c: int a = 10 ; a = 13; print->a output: 13
+js: const a = 10; a = a+1; error
+ (add, minun, replace : unchange)
+
+ let and var : 
+ -------------------------
+ can be reassigned;
+ let a = 10; a++; print -> 11;
+ var a = 10; a=a+1; print -> 11;
+
+ let should alys be initialized.
+ program 1:
+ var a; (computer will automaticaly initialize: var a = undefined)
+ print a -> undefined
+ a=10;
+ a = a+2;
+ print->a : 12
+
+ program 2:
+ let a;
+ print a -> error
+let b = 1;
+print b-> 1
+ 
+ ## how to print:
+ let a = 1;
+ console.log(a); output: 1
+
+ =========operators================
+ Assignment operator: =
+ Arithmatic operator:
+ + - * / %
+
+ let a = 10, b= 5;
+ let c=6;
+ console.log(a+b);output: 15
+ console.log(a+b-c) output: 9
+ console.log(a*c) output: 
+ console.log(a/c);
+
+ * Find the area of a trinagle, where three sides are 3,4,5.
+ Answer:
+ formula =  root(s(s-a)(s-b)(s-c)) where s is half perimeter.
+ 
+
+
+
+
+
